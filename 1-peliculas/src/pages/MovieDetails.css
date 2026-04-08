@@ -1,0 +1,72 @@
+.detailsContainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+  position: relative;
+}
+.col{
+  max-width: 400px;
+  margin: 15px;
+  height: auto;
+  width: 80%;
+}
+.movieImg{
+  border-radius: 15px;
+}
+
+
+/* BACKDROP */
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(40%);
+  z-index: -1;
+}
+
+/* CONTENIDO */
+.detailsContent {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+  align-items: center;
+}
+
+/* POSTER */
+.movieImg {
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+
+/* INFO */
+.movieDetails {
+  max-width: 600px;
+}
+
+.movieDetails h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+/* GENEROS */
+.genreTag {
+  display: inline-block;
+  background-color: #e50914;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+/* DESCRIPCION */
+.description {
+  margin-top: 20px;
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
