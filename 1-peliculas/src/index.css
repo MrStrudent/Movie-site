@@ -7,7 +7,19 @@
   font-family: "Poppins", sans-serif;
 }
 
-body{
-  background: #111;
-  color: white;
+body {
+  background: radial-gradient(circle at top right, #1a1a2e, #0f0c29 50%, #000000 100%);
+  background-attachment: fixed;
+  color: #e0e0e0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

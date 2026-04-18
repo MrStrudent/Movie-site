@@ -8,11 +8,28 @@ main {
   flex: 1;
 }
 
-.title{
-  margin-top: 20px;
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 15px 0;
+  background: rgba(15, 12, 41, 0.7);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  margin: 0;
   text-align: center;
-  font-size: 3rem;
-  color: darkblue;
+  font-size: 3.5rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  letter-spacing: -2px;
 }
 
 .app-footer {
