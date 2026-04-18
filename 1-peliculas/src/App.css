@@ -1,6 +1,35 @@
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
 .title{
   margin-top: 20px;
   text-align: center;
   font-size: 3rem;
   color: darkblue;
+}
+
+.app-footer {
+  background-color: #1a1a2e;
+  color: #ccc;
+  text-align: center;
+  padding: 20px 16px;
+  margin-top: 40px;
+  font-size: 0.85rem;
+  line-height: 1.8;
+  border-top: 3px solid #0f3460;
+}
+
+.app-footer p {
+  margin: 2px 0;
+}
+
+.app-footer strong {
+  color: #e0e0e0;
 }
