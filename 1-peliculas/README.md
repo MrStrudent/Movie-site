@@ -98,10 +98,10 @@ La página principal muestra una grilla de tarjetas con el poster y título de c
 Al hacer clic en cualquier tarjeta, se navega a `/movies/:id` donde se muestra el poster, géneros y descripción completa de la película.
 
 ## Link del repositorio
-https://github.com/OryxSSJ/Movie-site
+https://github.com/MrStrudent/Movie-site
 
 ## Link del despliegue en Netlify
-_(Se actualizará una vez completado el despliegue)_
+https://moviesite3.netlify.app/
 
 ## Conclusiones
 Esta práctica nos permitió aprender a construir una SPA con React y Vite, consumiendo una API externa real (TMDB). Trabajamos en equipo usando GitHub como flujo de trabajo colaborativo, aplicando buenas prácticas como el uso de variables de entorno para proteger credenciales y el archivo `_redirects` para una correcta navegación en producción con Netlify.
