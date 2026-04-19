@@ -53,7 +53,7 @@ Desarrollar una aplicación web SPA (Single Page Application) con React y Vite q
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/OryxSSJ/Movie-site.git
+git clone https://github.com/MrStrudent/Movie-site.git
 cd Movie-site/1-peliculas
 ```
 
